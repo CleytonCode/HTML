@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Qualificado - Crie seu CV profissional</title>
+    <link rel="stylesheet" href="/HTML/curriculoqualificado/curriculoqualificado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Currículo</span>Qualificado</h1>
+                <p>Sua porta de entrada para o mercado</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#how-it-works">Como funciona</a></li>
+                    <li><a href="#templates">Modelos</a></li>
+                    <li><a href="#pricing">Planos</a></li>
+                    <li class="auth-buttons">
+                        <button id="loginBtn">Entrar</button>
+                        <button id="signupBtn" class="primary">Criar Conta</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Crie um currículo que impressiona em minutos</h2>
+                    <p>Nossa plataforma inteligente ajuda você a criar o currículo perfeito para conquistar a vaga dos sonhos.</p>
+                    <button class="primary cta">Comece Agora - É Grátis</button>
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>+50.000 currículos criados</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-star"></i>
+                            <span>Avaliação 4.9/5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/hero-resume.png" alt="Exemplo de currículo profissional">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Recursos que fazem a diferença</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>Design Profissional</h3>
+                        <p>Modelos criados por especialistas em recrutamento para maximizar seu impacto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Otimização com IA</h3>
+                        <p>Nossa inteligência artificial analisa e sugere melhorias para seu currículo.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsivo</h3>
+                        <p>Seu currículo perfeito em qualquer dispositivo ou tela.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h3>Multi-formatos</h3>
+                        <p>Exporte como PDF, Word ou compartilhe online com um link único.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="steps">
+            <div class="container">
+                <h2>Como criar seu currículo em 3 passos</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Cadastre-se</h3>
+                        <p>Crie sua conta gratuitamente em menos de<br> 1 minuto.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Preencha seus dados</h3>
+                        <p>Nosso formulário intuitivo guia você passo a passo.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Baixe e compartilhe</h3>
+                        <p>Escolha um modelo, personalize e baixe seu currículo perfeito.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="templates" class="templates">
+            <div class="container">
+                <h2>Modelos Profissionais</h2>
+                <p>Escolha entre nossos designs modernos e otimizados</p>
+                <div class="templates-grid">
+                    <div class="template-card">
+                        <img src="assets/images/template-1.jpg" alt="Modelo Moderno">
+                        <div class="template-info">
+                            <h3>Moderno</h3>
+                            <button class="secondary">Pré-visualizar</button>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="assets/images/template-2.jpg" alt="Modelo Clássico">
+                        <div class="template-info">
+                            <h3>Clássico</h3>
+                            <button class="secondary">Pré-visualizar</button>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="assets/images/template-3.jpg" alt="Modelo Criativo">
+                        <div class="template-info">
+                            <h3>Criativo</h3>
+                            <button class="secondary">Pré-visualizar</button>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="assets/images/template-4.jpg" alt="Modelo Executivo">
+                        <div class="template-info">
+                            <h3>Executivo</h3>
+                            <button class="secondary">Pré-visualizar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Planos Acessíveis</h2>
+                <p>Escolha a opção que melhor atende suas necessidades</p>
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <h3>Básico</h3>
+                        <div class="price">R$ 19,90<span>/único</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> 1 modelo de currículo</li>
+                            <li><i class="fas fa-check"></i> Download em PDF</li>
+                            <li><i class="fas fa-check"></i> Edições por 7 dias</li>
+                            <li><i class="fas fa-times"></i> Análise de IA</li>
+                            <li><i class="fas fa-times"></i> Link compartilhável</li>
+                        </ul>
+                        <button class="secondary">Escolher Básico</button>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">MAIS POPULAR</div>
+                        <h3>Profissional</h3>
+                        <div class="price">R$ 29,90<span>/único</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Todos os modelos</li>
+                            <li><i class="fas fa-check"></i> PDF e Word</li>
+                            <li><i class="fas fa-check"></i> Edições ilimitadas</li>
+                            <li><i class="fas fa-check"></i> Análise de IA</li>
+                            <li><i class="fas fa-check"></i> Link compartilhável</li>
+                        </ul>
+                        <button class="primary">Escolher Profissional</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Premium</h3>
+                        <div class="price">R$ 49,90<span>/único</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Todos os recursos Pro</li>
+                            <li><i class="fas fa-check"></i> +5 cartas de apresentação</li>
+                            <li><i class="fas fa-check"></i> Consultoria de carreira</li>
+                            <li><i class="fas fa-check"></i> Prioridade no suporte</li>
+                            <li><i class="fas fa-check"></i> Atualizações vitalícias</li>
+                        </ul>
+                        <button class="secondary">Escolher Premium</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>O que nossos usuários dizem</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Consegui minha vaga dos sonhos graças ao currículo criado aqui. O recrutador elogiou o design profissional!</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/user-1.jpg" alt="Carlos Silva">
+                            <div class="author-info">
+                                <h4>Carlos Silva</h4>
+                                <p>Analista de Marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Nunca foi tão fácil criar um currículo. A análise de IA me ajudou a destacar minhas melhores habilidades.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/user-2.jpg" alt="Ana Oliveira">
+                            <div class="author-info">
+                                <h4>Ana Oliveira</h4>
+                                <p>Desenvolvedora Front-end</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Pronto para impressionar recrutadores?</h2>
+                <p>Crie seu currículo profissional agora mesmo e dê o próximo passo na sua carreira</p>
+                <button class="primary cta">Comece Agora - É Grátis</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span>Currículo</span>Qualificado</h3>
+                    <p>Sua carreira merece o melhor.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4>Produto</h4>
+                        <ul>
+                            <li><a href="#">Recursos</a></li>
+                            <li><a href="#">Planos</a></li>
+                            <li><a href="#">Modelos</a></li>
+                            <li><a href="#">Novidades</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Carreiras</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-column">
+                        <h4>Suporte</h4>
+                        <ul>
+                            <li><a href="#">Central de Ajuda</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Currículo Qualificado. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modais -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Entrar na sua conta</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Senha</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="primary">Entrar</button>
+            </form>
+            <div class="auth-links">
+                <a href="#">Esqueci minha senha</a>
+                <p>Não tem uma conta? <a href="#" id="showSignup">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Criar uma conta</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Nome completo</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Senha</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupConfirmPassword">Confirme sua senha</label>
+                    <input type="password" id="signupConfirmPassword" required>
+                </div>
+                <button type="submit" class="primary">Criar Conta</button>
+            </form>
+            <div class="auth-links">
+                <p>Já tem uma conta? <a href="#" id="showLogin">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="builderModal" class="modal builder-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="builder-header">
+                <h2>Criador de Currículo</h2>
+                <div class="builder-steps">
+                    <div class="step active" data-step="1">1. Informações Pessoais</div>
+                    <div class="step" data-step="2">2. Experiência</div>
+                    <div class="step" data-step="3">3. Educação</div>
+                    <div class="step" data-step="4">4. Habilidades</div>
+                    <div class="step" data-step="5">5. Modelo</div>
+                </div>
+            </div>
+            <div class="builder-content">
+                <form id="resumeForm">
+                    <!-- Step 1 -->
+                    <div class="builder-step active" data-step="1">
+                        <h3>Informações Pessoais</h3>
+                        <div class="form-group">
+                            <label for="fullName">Nome completo</label>
+                            <input type="text" id="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="profession">Profissão/Cargo</label>
+                            <input type="text" id="profession" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Endereço</label>
+                            <input type="text" id="address">
+                        </div>
+                        <div class="form-group">
+                            <label for="linkedin">LinkedIn</label>
+                            <input type="url" id="linkedin">
+                        </div>
+                        <div class="form-group">
+                            <label for="portfolio">Portfólio/Site</label>
+                            <input type="url" id="portfolio">
+                        </div>
+                        <div class="form-group">
+                            <label for="summary">Resumo Profissional</label>
+                            <textarea id="summary" rows="4"></textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="builder-step" data-step="2">
+                        <h3>Experiência Profissional</h3>
+                        <div id="experienceContainer">
+                            <div class="experience-item">
+                                <div class="form-group">
+                                    <label for="jobTitle">Cargo</label>
+                                    <input type="text" class="jobTitle" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="company">Empresa</label>
+                                    <input type="text" class="company" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="startDate">Data de início</label>
+                                        <input type="month" class="startDate" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="endDate">Data de término</label>
+                                        <input type="month" class="endDate">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="jobDescription">Descrição</label>
+                                    <textarea class="jobDescription" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="remove-experience secondary">Remover</button>
+                            </div>
+                        </div>
+                        <button type="button" id="addExperience" class="secondary">+ Adicionar Experiência</button>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="builder-step" data-step="3">
+                        <h3>Educação</h3>
+                        <div id="educationContainer">
+                            <div class="education-item">
+                                <div class="form-group">
+                                    <label for="degree">Curso/Formação</label>
+                                    <input type="text" class="degree" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="institution">Instituição</label>
+                                    <input type="text" class="institution" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="eduStartDate">Data de início</label>
+                                        <input type="month" class="eduStartDate">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="eduEndDate">Data de término</label>
+                                        <input type="month" class="eduEndDate">
+                                    </div>
+                                </div>
+                                <button type="button" class="remove-education secondary">Remover</button>
+                            </div>
+                        </div>
+                        <button type="button" id="addEducation" class="secondary">+ Adicionar Educação</button>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="builder-step" data-step="4">
+                        <h3>Habilidades</h3>
+                        <div id="skillsContainer">
+                            <div class="skill-item">
+                                <div class="form-group">
+                                    <label for="skillName">Habilidade</label>
+                                    <input type="text" class="skillName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="skillLevel">Nível</label>
+                                    <select class="skillLevel">
+                                        <option value="beginner">Iniciante</option>
+                                        <option value="intermediate">Intermediário</option>
+                                        <option value="advanced">Avançado</option>
+                                        <option value="expert">Especialista</option>
+                                    </select>
+                                </div>
+                                <button type="button" class="remove-skill secondary">Remover</button>
+                            </div>
+                        </div>
+                        <button type="button" id="addSkill" class="secondary">+ Adicionar Habilidade</button>
+                    </div>
+                    
+                    <!-- Step 5 -->
+                    <div class="builder-step" data-step="5">
+                        <h3>Escolha seu modelo</h3>
+                        <div class="template-selection">
+                            <div class="template-option">
+                                <input type="radio" id="template1" name="template" value="modern" checked>
+                                <label for="template1">
+                                    <img src="assets/images/template-1-thumb.jpg" alt="Modelo Moderno">
+                                    <span>Moderno</span>
+                                </label>
+                            </div>
+                            <div class="template-option">
+                                <input type="radio" id="template2" name="template" value="classic">
+                                <label for="template2">
+                                    <img src="assets/images/template-2-thumb.jpg" alt="Modelo Clássico">
+                                    <span>Clássico</span>
+                                </label>
+                            </div>
+                            <div class="template-option">
+                                <input type="radio" id="template3" name="template" value="creative">
+                                <label for="template3">
+                                    <img src="assets/images/template-3-thumb.jpg" alt="Modelo Criativo">
+                                    <span>Criativo</span>
+                                </label>
+                            </div>
+                            <div class="template-option">
+                                <input type="radio" id="template4" name="template" value="executive">
+                                <label for="template4">
+                                    <img src="assets/images/template-4-thumb.jpg" alt="Modelo Executivo">
+                                    <span>Executivo</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="preview-container">
+                            <h4>Pré-visualização</h4>
+                            <div class="resume-preview">
+                                <!-- Preview will be generated here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="builder-navigation">
+                        <button type="button" id="prevStep" class="secondary" disabled>Anterior</button>
+                        <button type="button" id="nextStep" class="primary">Próximo</button>
+                        <button type="submit" id="finishBuilder" class="primary" style="display: none;">Finalizar e Baixar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="paymentModal" class="modal payment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Escolha seu plano</h2>
+            <div class="payment-options">
+                <div class="payment-card">
+                    <h3>Básico</h3>
+                    <div class="price">R$ 19,90</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1 modelo de currículo</li>
+                        <li><i class="fas fa-check"></i> Download em PDF</li>
+                        <li><i class="fas fa-check"></i> Edições por 7 dias</li>
+                    </ul>
+                    <button class="secondary">Selecionar</button>
+                </div>
+                <div class="payment-card popular">
+                    <div class="popular-badge">RECOMENDADO</div>
+                    <h3>Profissional</h3>
+                    <div class="price">R$ 29,90</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Todos os modelos</li>
+                        <li><i class="fas fa-check"></i> PDF e Word</li>
+                        <li><i class="fas fa-check"></i> Edições ilimitadas</li>
+                        <li><i class="fas fa-check"></i> Análise de IA</li>
+                        <li><i class="fas fa-check"></i> Link compartilhável</li>
+                    </ul>
+                    <button class="primary">Selecionar</button>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h3>Métodos de pagamento</h3>
+                <div class="methods-grid">
+                    <div class="method"><i class="fab fa-cc-visa"></i></div>
+                    <div class="method"><i class="fab fa-cc-mastercard"></i></div>
+                    <div class="method"><i class="fab fa-cc-amex"></i></div>
+                    <div class="method"><i class="fab fa-cc-paypal"></i></div>
+                    <div class="method"><img src="assets/images/pix-logo.png" alt="Pix"></div>
+                    <div class="method"><img src="assets/images/boleto-logo.png" alt="Boleto"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/HTML/curriculoqualificado/curriculoqualificado.js"></script>
+</body>
+</html>
